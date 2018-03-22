@@ -1,4 +1,4 @@
-#Renames all files in a folder to 1-x ordered by their creation date
+#Renames all files in a folder to 0-x ordered by their creation date
 import os
 
 def sorted_dir(folder):

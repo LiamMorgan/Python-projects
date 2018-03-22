@@ -1,10 +1,11 @@
+#Prompts the user to input a number between 1-100, and replies with "Higher, Lower, Correct" depending on answer.
 import random
 
 def main():
     rand = random.randint(0,100)
     while True:
         try:
-            user = int(input("Enter the number you think it may be.\n"))
+            user = int(input("Enter the number between 1-100.\n"))
         except ValueError:
             print("Must be a number.")
             main()

@@ -1,3 +1,4 @@
+#Rolls a dice when the user enters "y", returns number
 import random
 
 while True:
